@@ -35,6 +35,8 @@
 		5E95254317A85C1400B174C2 /* sample.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5E95254117A85C1400B174C2 /* sample.markdown */; };
 		5E95254B17A8756800B174C2 /* BPMarkdownView.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E95254917A8756800B174C2 /* BPMarkdownView.png */; };
 		5E95254C17A8756800B174C2 /* BPMarkdownView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E95254A17A8756800B174C2 /* BPMarkdownView@2x.png */; };
+		5E9525A117A87A1E00B174C2 /* UITextView.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E95259F17A87A1E00B174C2 /* UITextView.png */; };
+		5E9525A217A87A1E00B174C2 /* UITextView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E9525A017A87A1E00B174C2 /* UITextView@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		5E95254117A85C1400B174C2 /* sample.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.markdown; sourceTree = "<group>"; };
 		5E95254917A8756800B174C2 /* BPMarkdownView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BPMarkdownView.png; sourceTree = "<group>"; };
 		5E95254A17A8756800B174C2 /* BPMarkdownView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BPMarkdownView@2x.png"; sourceTree = "<group>"; };
+		5E95259F17A87A1E00B174C2 /* UITextView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UITextView.png; sourceTree = "<group>"; };
+		5E9525A017A87A1E00B174C2 /* UITextView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITextView@2x.png"; sourceTree = "<group>"; };
 		79D46D4585F2477A839AFC1E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -199,6 +203,8 @@
 				5E95253D17A85BFD00B174C2 /* iPhone Retina.png */,
 				5E95254917A8756800B174C2 /* BPMarkdownView.png */,
 				5E95254A17A8756800B174C2 /* BPMarkdownView@2x.png */,
+				5E95259F17A87A1E00B174C2 /* UITextView.png */,
+				5E9525A017A87A1E00B174C2 /* UITextView@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -287,6 +293,8 @@
 				5E95254217A85C1400B174C2 /* sample.markdown in Resources */,
 				5E95254B17A8756800B174C2 /* BPMarkdownView.png in Resources */,
 				5E95254C17A8756800B174C2 /* BPMarkdownView@2x.png in Resources */,
+				5E9525A117A87A1E00B174C2 /* UITextView.png in Resources */,
+				5E9525A217A87A1E00B174C2 /* UITextView@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
