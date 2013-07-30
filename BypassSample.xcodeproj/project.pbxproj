@@ -33,6 +33,8 @@
 		5E95254017A85C0000B174C2 /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E95253F17A85C0000B174C2 /* iPhone.png */; };
 		5E95254217A85C1400B174C2 /* sample.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5E95254117A85C1400B174C2 /* sample.markdown */; };
 		5E95254317A85C1400B174C2 /* sample.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5E95254117A85C1400B174C2 /* sample.markdown */; };
+		5E95254B17A8756800B174C2 /* BPMarkdownView.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E95254917A8756800B174C2 /* BPMarkdownView.png */; };
+		5E95254C17A8756800B174C2 /* BPMarkdownView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E95254A17A8756800B174C2 /* BPMarkdownView@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,9 +75,11 @@
 		5E95253417A85B2900B174C2 /* BPTextViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BPTextViewController.mm; sourceTree = "<group>"; };
 		5E95253517A85B2900B174C2 /* BPMarkdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPMarkdownViewController.h; sourceTree = "<group>"; };
 		5E95253617A85B2900B174C2 /* BPMarkdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPMarkdownViewController.m; sourceTree = "<group>"; };
-		5E95253D17A85BFD00B174C2 /* iPhone Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Retina.png"; sourceTree = "<group>"; };
-		5E95253F17A85C0000B174C2 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
+		5E95253D17A85BFD00B174C2 /* iPhone Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone Retina.png"; path = "../iPhone Retina.png"; sourceTree = "<group>"; };
+		5E95253F17A85C0000B174C2 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhone.png; path = ../iPhone.png; sourceTree = "<group>"; };
 		5E95254117A85C1400B174C2 /* sample.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.markdown; sourceTree = "<group>"; };
+		5E95254917A8756800B174C2 /* BPMarkdownView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BPMarkdownView.png; sourceTree = "<group>"; };
+		5E95254A17A8756800B174C2 /* BPMarkdownView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BPMarkdownView@2x.png"; sourceTree = "<group>"; };
 		79D46D4585F2477A839AFC1E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -107,8 +111,6 @@
 		5E9524DE17A85A9B00B174C2 = {
 			isa = PBXGroup;
 			children = (
-				5E95253F17A85C0000B174C2 /* iPhone.png */,
-				5E95253D17A85BFD00B174C2 /* iPhone Retina.png */,
 				5E9524F017A85A9B00B174C2 /* BypassSample */,
 				5E95251F17A85A9B00B174C2 /* BypassSampleTests */,
 				5E9524E917A85A9B00B174C2 /* Frameworks */,
@@ -141,6 +143,7 @@
 		5E9524F017A85A9B00B174C2 /* BypassSample */ = {
 			isa = PBXGroup;
 			children = (
+				5E95254417A8753100B174C2 /* Images */,
 				5E9524F917A85A9B00B174C2 /* BPAppDelegate.h */,
 				5E9524FA17A85A9B00B174C2 /* BPAppDelegate.m */,
 				5E95253117A85B2900B174C2 /* BPAbstractViewController.h */,
@@ -187,6 +190,17 @@
 				5E95252217A85A9B00B174C2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E95254417A8753100B174C2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5E95253F17A85C0000B174C2 /* iPhone.png */,
+				5E95253D17A85BFD00B174C2 /* iPhone Retina.png */,
+				5E95254917A8756800B174C2 /* BPMarkdownView.png */,
+				5E95254A17A8756800B174C2 /* BPMarkdownView@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +285,8 @@
 				5E95253E17A85BFD00B174C2 /* iPhone Retina.png in Resources */,
 				5E95254017A85C0000B174C2 /* iPhone.png in Resources */,
 				5E95254217A85C1400B174C2 /* sample.markdown in Resources */,
+				5E95254B17A8756800B174C2 /* BPMarkdownView.png in Resources */,
+				5E95254C17A8756800B174C2 /* BPMarkdownView@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,9 +469,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 79D46D4585F2477A839AFC1E /* Pods.xcconfig */;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "compiler-default";
-				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BypassSample/BypassSample-Prefix.pch";
 				INFOPLIST_FILE = "BypassSample/BypassSample-Info.plist";
@@ -468,9 +484,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 79D46D4585F2477A839AFC1E /* Pods.xcconfig */;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "compiler-default";
-				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BypassSample/BypassSample-Prefix.pch";
 				INFOPLIST_FILE = "BypassSample/BypassSample-Info.plist";
