@@ -4,3 +4,6 @@
 xcuserdata
 xcshareddata
 *~
+Pods
+Podfile.lock
+BypassSample.xcworkspace
