@@ -18,36 +18,17 @@
 		5E9524FF17A85A9B00B174C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E9524FE17A85A9B00B174C2 /* Default@2x.png */; };
 		5E95250117A85A9B00B174C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E95250017A85A9B00B174C2 /* Default-568h@2x.png */; };
 		5E95250417A85A9B00B174C2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E95250217A85A9B00B174C2 /* MainStoryboard.storyboard */; };
-		5E95251A17A85A9B00B174C2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E95251917A85A9B00B174C2 /* SenTestingKit.framework */; };
-		5E95251B17A85A9B00B174C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9524EA17A85A9B00B174C2 /* UIKit.framework */; };
-		5E95251C17A85A9B00B174C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9524EC17A85A9B00B174C2 /* Foundation.framework */; };
-		5E95252417A85A9B00B174C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E95252217A85A9B00B174C2 /* InfoPlist.strings */; };
-		5E95252717A85A9B00B174C2 /* BypassSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95252617A85A9B00B174C2 /* BypassSampleTests.m */; };
 		5E95253717A85B2900B174C2 /* BPAbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95253217A85B2900B174C2 /* BPAbstractViewController.m */; };
-		5E95253817A85B2900B174C2 /* BPAbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95253217A85B2900B174C2 /* BPAbstractViewController.m */; };
 		5E95253917A85B2900B174C2 /* BPTextViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E95253417A85B2900B174C2 /* BPTextViewController.mm */; };
-		5E95253A17A85B2900B174C2 /* BPTextViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E95253417A85B2900B174C2 /* BPTextViewController.mm */; };
 		5E95253B17A85B2900B174C2 /* BPMarkdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95253617A85B2900B174C2 /* BPMarkdownViewController.m */; };
-		5E95253C17A85B2900B174C2 /* BPMarkdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95253617A85B2900B174C2 /* BPMarkdownViewController.m */; };
 		5E95253E17A85BFD00B174C2 /* iPhone Retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E95253D17A85BFD00B174C2 /* iPhone Retina.png */; };
 		5E95254017A85C0000B174C2 /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E95253F17A85C0000B174C2 /* iPhone.png */; };
 		5E95254217A85C1400B174C2 /* sample.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5E95254117A85C1400B174C2 /* sample.markdown */; };
-		5E95254317A85C1400B174C2 /* sample.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5E95254117A85C1400B174C2 /* sample.markdown */; };
 		5E95254B17A8756800B174C2 /* BPMarkdownView.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E95254917A8756800B174C2 /* BPMarkdownView.png */; };
 		5E95254C17A8756800B174C2 /* BPMarkdownView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E95254A17A8756800B174C2 /* BPMarkdownView@2x.png */; };
 		5E9525A117A87A1E00B174C2 /* UITextView.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E95259F17A87A1E00B174C2 /* UITextView.png */; };
 		5E9525A217A87A1E00B174C2 /* UITextView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E9525A017A87A1E00B174C2 /* UITextView@2x.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5E95251D17A85A9B00B174C2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5E9524DF17A85A9B00B174C2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E9524E617A85A9B00B174C2;
-			remoteInfo = BypassSample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5724B613DB7A4EBCA54205BA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,12 +46,7 @@
 		5E9524FE17A85A9B00B174C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5E95250017A85A9B00B174C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5E95250317A85A9B00B174C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5E95251817A85A9B00B174C2 /* BypassSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BypassSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E95251917A85A9B00B174C2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5E95252117A85A9B00B174C2 /* BypassSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BypassSampleTests-Info.plist"; sourceTree = "<group>"; };
-		5E95252317A85A9B00B174C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5E95252517A85A9B00B174C2 /* BypassSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BypassSampleTests.h; sourceTree = "<group>"; };
-		5E95252617A85A9B00B174C2 /* BypassSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BypassSampleTests.m; sourceTree = "<group>"; };
 		5E95253117A85B2900B174C2 /* BPAbstractViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAbstractViewController.h; sourceTree = "<group>"; };
 		5E95253217A85B2900B174C2 /* BPAbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPAbstractViewController.m; sourceTree = "<group>"; };
 		5E95253317A85B2900B174C2 /* BPTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPTextViewController.h; sourceTree = "<group>"; };
@@ -99,16 +75,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E95251417A85A9B00B174C2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E95251A17A85A9B00B174C2 /* SenTestingKit.framework in Frameworks */,
-				5E95251B17A85A9B00B174C2 /* UIKit.framework in Frameworks */,
-				5E95251C17A85A9B00B174C2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -116,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				5E9524F017A85A9B00B174C2 /* BypassSample */,
-				5E95251F17A85A9B00B174C2 /* BypassSampleTests */,
 				5E9524E917A85A9B00B174C2 /* Frameworks */,
 				5E9524E817A85A9B00B174C2 /* Products */,
 				79D46D4585F2477A839AFC1E /* Pods.xcconfig */,
@@ -127,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				5E9524E717A85A9B00B174C2 /* BypassSample.app */,
-				5E95251817A85A9B00B174C2 /* BypassSampleTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,25 +141,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5E95251F17A85A9B00B174C2 /* BypassSampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				5E95252517A85A9B00B174C2 /* BypassSampleTests.h */,
-				5E95252617A85A9B00B174C2 /* BypassSampleTests.m */,
-				5E95252017A85A9B00B174C2 /* Supporting Files */,
-			);
-			path = BypassSampleTests;
-			sourceTree = "<group>";
-		};
-		5E95252017A85A9B00B174C2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5E95252117A85A9B00B174C2 /* BypassSampleTests-Info.plist */,
-				5E95252217A85A9B00B174C2 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		5E95254417A8753100B174C2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,25 +176,6 @@
 			productReference = 5E9524E717A85A9B00B174C2 /* BypassSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5E95251717A85A9B00B174C2 /* BypassSampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E95252D17A85A9B00B174C2 /* Build configuration list for PBXNativeTarget "BypassSampleTests" */;
-			buildPhases = (
-				5E95251317A85A9B00B174C2 /* Sources */,
-				5E95251417A85A9B00B174C2 /* Frameworks */,
-				5E95251517A85A9B00B174C2 /* Resources */,
-				5E95251617A85A9B00B174C2 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5E95251E17A85A9B00B174C2 /* PBXTargetDependency */,
-			);
-			name = BypassSampleTests;
-			productName = BypassSampleTests;
-			productReference = 5E95251817A85A9B00B174C2 /* BypassSampleTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -273,7 +199,6 @@
 			projectRoot = "";
 			targets = (
 				5E9524E617A85A9B00B174C2 /* BypassSample */,
-				5E95251717A85A9B00B174C2 /* BypassSampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,15 +220,6 @@
 				5E95254C17A8756800B174C2 /* BPMarkdownView@2x.png in Resources */,
 				5E9525A117A87A1E00B174C2 /* UITextView.png in Resources */,
 				5E9525A217A87A1E00B174C2 /* UITextView@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E95251517A85A9B00B174C2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E95252417A85A9B00B174C2 /* InfoPlist.strings in Resources */,
-				5E95254317A85C1400B174C2 /* sample.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,19 +256,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5E95251617A85A9B00B174C2 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -368,26 +271,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E95251317A85A9B00B174C2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E95252717A85A9B00B174C2 /* BypassSampleTests.m in Sources */,
-				5E95253817A85B2900B174C2 /* BPAbstractViewController.m in Sources */,
-				5E95253A17A85B2900B174C2 /* BPTextViewController.mm in Sources */,
-				5E95253C17A85B2900B174C2 /* BPMarkdownViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5E95251E17A85A9B00B174C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5E9524E617A85A9B00B174C2 /* BypassSample */;
-			targetProxy = 5E95251D17A85A9B00B174C2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5E9524F317A85A9B00B174C2 /* InfoPlist.strings */ = {
@@ -404,14 +288,6 @@
 				5E95250317A85A9B00B174C2 /* en */,
 			);
 			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
-		5E95252217A85A9B00B174C2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E95252317A85A9B00B174C2 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -503,40 +379,6 @@
 			};
 			name = Release;
 		};
-		5E95252E17A85A9B00B174C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BypassSample.app/BypassSample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BypassSample/BypassSample-Prefix.pch";
-				INFOPLIST_FILE = "BypassSampleTests/BypassSampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		5E95252F17A85A9B00B174C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BypassSample.app/BypassSample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BypassSample/BypassSample-Prefix.pch";
-				INFOPLIST_FILE = "BypassSampleTests/BypassSampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -554,15 +396,6 @@
 			buildConfigurations = (
 				5E95252B17A85A9B00B174C2 /* Debug */,
 				5E95252C17A85A9B00B174C2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5E95252D17A85A9B00B174C2 /* Build configuration list for PBXNativeTarget "BypassSampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E95252E17A85A9B00B174C2 /* Debug */,
-				5E95252F17A85A9B00B174C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
