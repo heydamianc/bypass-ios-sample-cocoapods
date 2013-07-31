@@ -1,7 +1,8 @@
 # Bypass Sample using CocoaPods
 
 This sample project shows how to include [Bypass](https://github.com/Uncodin/bypass-ios)
-using [CocoaPods](http://cocoapods.org).
+using [CocoaPods](http://cocoapods.org). You can also choose to
+[use git submodules](https://github.com/damiancarrillo/bypass-ios-sample-submodules).
 
 ## Getting Started
 
